@@ -1,0 +1,14 @@
+ul {
+  padding-top: 4rem;
+  list-style: none;
+}
+
+li {
+  border: 0.2rem solid #204069;
+  border-radius: 0.5rem;
+  margin-bottom: 0.2rem;
+  max-width: 4rem;
+  text-align: center;
+  background-color: #4070b0;
+  color: #fff;
+}
