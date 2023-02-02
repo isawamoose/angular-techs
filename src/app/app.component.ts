@@ -8,6 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   public fruitList = ['apple', 'pear', 'banana', 'peach', 'kiwi'];
+  public studentList = [
+    'Paige',
+    'Aarohi',
+    'Stephen',
+    'Hannah',
+    'Marcos',
+    'Kyle',
+  ];
   public visible = true;
 
   public add() {
@@ -16,5 +24,9 @@ export class AppComponent {
 
   public remove() {
     if (this.numberList.length > 1) this.numberList.pop();
+  }
+
+  public changeVisibility() {
+    this.visible = !this.visible;
   }
 }

@@ -4,4 +4,6 @@
 
 <button class="add" (click)="add()">+</button>
 <button class="remove" (click)="remove()">-</button>
-<button class="show-hide">{{ visible ? 'hide' : 'show' }}</button>
+<button class="show-hide" (click)="changeVisibility()">
+  {{ visible ? 'hide' : 'show' }}
+</button>
