@@ -1,3 +1,7 @@
 <ul *ngIf="visible">
-  <li *ngFor="let thing of forList; index as i">{{ thing }}</li>
+  <li *ngFor="let thing of numberList">{{ thing }}</li>
 </ul>
+
+<button class="add" (click)="add()">+</button>
+<button class="remove" (click)="remove()">-</button>
+<button class="show-hide">{{ visible ? 'hide' : 'show' }}</button>

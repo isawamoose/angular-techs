@@ -1,5 +1,5 @@
 ul {
-  padding-top: 4rem;
+  padding-top: 1rem;
   list-style: none;
 }
 
@@ -11,4 +11,28 @@ li {
   text-align: center;
   background-color: #4070b0;
   color: #fff;
+}
+
+button {
+  position: fixed;
+  width: 4rem;
+  border: 0.2rem solid #204069;
+  border-radius: 0.5rem;
+  background-color: #4070b0;
+  color: #fff;
+}
+
+button.add {
+  top: 1rem;
+  right: 1rem;
+}
+
+button.remove {
+  top: 4rem;
+  right: 1rem;
+}
+
+button.show-hide {
+  top: 7rem;
+  right: 1rem;
 }

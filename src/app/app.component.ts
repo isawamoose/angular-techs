@@ -6,6 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  public forList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  public numberList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  public fruitList = ['apple', 'pear', 'banana', 'peach', 'kiwi'];
   public visible = true;
+
+  public add() {
+    this.numberList.push(this.numberList[this.numberList.length - 1] + 1);
+  }
+
+  public remove() {
+    if (this.numberList.length > 1) this.numberList.pop();
+  }
 }
